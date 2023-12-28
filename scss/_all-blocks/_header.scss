@@ -1,0 +1,50 @@
+.header {
+  padding: 34px;
+
+  &-left {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-btn {
+    color: #fff;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-weight: 700;
+    width: 180px;
+    height: 53px;
+    background: #fcb72b;
+  }
+
+  &-btn:hover {
+    background-color: white;
+    border: 3px solid #fcb72b;
+    color: #fcb72b;
+    font-family: Space "Mono";
+    font-size: 15px;
+    font-weight: 700;
+  }
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.header-item {
+  .header-link {
+    color: #939caa;
+    font-family: Space "Mono";
+    font-size: 15px;
+    font-weight: 700;
+  }
+}
